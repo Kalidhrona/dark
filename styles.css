@@ -1,0 +1,78 @@
+/* Dark background for the entire page */
+body {
+    background-color: #121212;
+    color: #e0e0e0; /* Light gray text for readability */
+}
+
+/* Styling headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* White headings */
+}
+
+/* Styling links */
+a {
+    color: #64b5f6; /* Lighter blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #90caf9; /* Lighter blue on hover */
+}
+
+/* Style for buttons */
+button, .button {
+    background-color: #333333; /* Dark button background */
+    color: #ffffff; /* White text on buttons */
+    border: 1px solid #555555; /* Border for buttons */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover, .button:hover {
+    background-color: #444444; /* Slightly lighter background on hover */
+}
+
+/* Dark background for sections */
+.section-background {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Input and textarea fields */
+input, textarea {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Placeholder text color */
+input::placeholder, textarea::placeholder {
+    color: #999999;
+}
+
+/* Styling navigation bar */
+nav {
+    background-color: #242424;
+    padding: 10px;
+    border-bottom: 1px solid #333333;
+}
+
+nav a {
+    color: #e0e0e0;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #333333;
+}
+
+/* Footer styling */
+footer {
+    background-color: #242424;
+    color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
